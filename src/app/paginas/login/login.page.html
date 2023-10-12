@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><img src="../../../assets/DuocUC.png" alt="duoc" class="logo"></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <body>
+    
+    <h1>Bienvenido a REGISTRAP</h1>
+    
+    <form action="procesar_login.php" method="post">
+      <h2>Registro</h2>
+      <div class="user">
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+      </div>
+      <div class="pass">
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+      </div>
+      <div class="pass">
+        <label for="contrasena">Confirmar Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+      </div> 
+      <div class="pass">
+        <label for="mail">correo:</label>
+        <input type="mail" id="mail" name="mail" required><br><br>
+      </div>
+      <div class="pass">
+        <label for="id">Rut:</label>
+        <input type="id" id="contrasena" name="contrasena" required><br><br>
+      </div>
+      <div class="pass">
+        <label for="id">fecha nacimiento:</label>
+        <input type="id" id="contrasena" name="contrasena" required><br><br>
+      </div>                 
+      <ion-button shape="round">Registrarse</ion-button>  
+      <ion-button shape="round" routerLink="/index">Volver a Iniciar sesion</ion-button>  
+

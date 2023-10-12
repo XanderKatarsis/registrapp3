@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title><img src="../../../assets/DuocUC.png" alt="duoc" class="logo"></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="ion-padding">
+  <body>
+    
+    <form action="procesar_login.php" method="post">
+      <h2>Restablecer contraseña</h2>
+      <div class="user">
+        <label for="usuario">Nueva contraseña:</label>
+        <input type="text" id="usuario" name="usuario" required><br><br>
+      </div>
+      <div class="pass">
+        <label for="contrasena">Confirmar Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required><br><br>
+      </div>
+      <ion-button shape="round" routerLink="/index">Restablecer</ion-button>  
+
+    </form>
+
+
+</body>
+</ion-content>
