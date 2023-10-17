@@ -9,7 +9,7 @@
   <body>
     
     <h1>Bienvenido a REGISTRAP</h1>
-    
+ 
     <form action="procesar_login.php" method="post">
       <h2>Iniciar Sesión</h2>
       <div class="user">
@@ -19,15 +19,16 @@
       <div class="pass">
         <label for="contrasena">Contraseña:</label>
         <input type="password" id="contrasena" name="contrasena" required><br><br>
+ 
       </div>   
-        <ion-button shape="round" style="size: small;">Iniciar sesion</ion-button>
+        <ion-button mat-raised-button color="primary" shape="round" style="size: small;">Iniciar sesion</ion-button>
         <ion-content>
           <div class="ion-text-center">
           </div>
         </ion-content>      
     </form>
     <div>    
-        <ion-button shape="round" routerLink="/login">Registrarse</ion-button>     
+        <ion-button mat-raised-button color="primary" shape="round" routerLink="/login">Registrarse</ion-button>     
     </div>
 
     <div>

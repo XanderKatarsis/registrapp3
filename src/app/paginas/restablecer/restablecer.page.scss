@@ -3,14 +3,18 @@ body {
     justify-content: center;
     margin: 0;
     background-color: white;
+    width: 380px;
+    height: 800px;
     
 }
 
 
 .logo{
-    width: 300px;
+    width: 380px;
     height: 80px;
+    background-color: white;
 }
+
 
 .user{
 
@@ -27,5 +31,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
 }

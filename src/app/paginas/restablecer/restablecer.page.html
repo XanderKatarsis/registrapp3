@@ -11,17 +11,16 @@
     <form action="procesar_login.php" method="post">
       <h2>Restablecer contraseña</h2>
       <div class="user">
-        <label for="usuario">Nueva contraseña:</label>
+        <ion-label for="usuario">Nueva contraseña:</ion-label>
         <input type="text" id="usuario" name="usuario" required><br><br>
       </div>
       <div class="pass">
-        <label for="contrasena">Confirmar Contraseña:</label>
+        <ion-label for="contrasena">Confirmar Contraseña:</ion-label>
         <input type="password" id="contrasena" name="contrasena" required><br><br>
       </div>
-      <ion-button shape="round" routerLink="/index">Restablecer</ion-button>  
+      <ion-button mat-raised-button color="primary" shape="round" routerLink="/index">Restablecer</ion-button>  
 
     </form>
-
-
-</body>
+  </body>
 </ion-content>
+
