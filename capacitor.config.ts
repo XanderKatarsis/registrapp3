@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'registrapp',
   appName: 'firebaseAuthApp',
   webDir: 'www',
   bundledWebRuntime: false

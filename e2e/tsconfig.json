@@ -1,17 +1,12 @@
 {
+  "extends": "../tsconfig.json",
   "compilerOptions": {
+    "outDir": "../out-tsc/e2e",
     "module": "commonjs",
-    "esModuleInterop": true,
-    "allowJs": true,
-    "target": "es2017",
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "baseUrl": ".",
-    "outDir": "./dist/out-tsc",
-    "types": ["jasmine", "node"],
-    "paths": {
-      "*": ["*", "node_modules/*"]
-    }
-  },
-  "include": ["**/*.e2e-spec.ts"]
+    "target": "es2018",
+    "types": [
+      "jasmine",
+      "node"
+    ]
+  }
 }
